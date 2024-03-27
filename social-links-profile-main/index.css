@@ -6,7 +6,7 @@ body {
 
 .container {
     text-align: center; /* Center the elements horizontally */
-    width: 80%; /* Set the width of the container */
+    width: 35%; /* Set the width of the container */
     margin: 0 auto; /* Center the container horizontally */
     background-color: #342f2ffe; /* Background color for the container */
     padding: 20px; /* Add some padding around the content */
