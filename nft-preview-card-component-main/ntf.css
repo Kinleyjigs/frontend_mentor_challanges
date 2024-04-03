@@ -1,0 +1,130 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+}
+
+.container {
+    text-align: center; /* Center the elements horizontally */
+    width: 25%; /* Adjust the width of the container */
+    height: 30%; /* Adjust the height of the container */
+    margin: 0 auto; /* Center the container horizontally */
+    background-color: hsl(216, 50%, 18%); /* Background color for the container */
+    padding: 20px; /* Add some padding around the content */
+    border-radius: 20px; /* Rounded corners for the container */
+    margin-left: auto; 
+    margin-right: auto;
+    position: relative; /* Required for absolute positioning of image */
+}
+
+
+.Equilibrium {
+    width: 100%; /* Set width to 100% */
+    text-align: center; /* Center the content horizontally */
+    border-radius: 10px; /* Apply border radius */
+    position: relative; /* Required for absolute positioning of image */
+    overflow: hidden; /* Hide overflow to ensure image fits within container */
+}
+
+
+
+.name a {
+    text-decoration: none; /* Remove default underline */
+    transition: color 0.3s; /* Smooth transition for color change */
+    font-size: 24px;
+    margin-bottom: 10px;
+    color:#eef4f4
+}
+
+.name a:hover {
+    color:  #22d2db; /* Change text color to blue on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+
+
+
+
+.description {
+    font-style: lato;
+    color: #c0c4c0;
+    margin-bottom: 15px;
+   
+    margin-top: 20px;
+}
+
+.time {
+    
+    color: #fffcfc;
+    margin-bottom: 20px;
+}
+
+.diamond {
+    display: inline-block; /* Display both the img and div as inline-block elements */
+    vertical-align: middle; /* Align elements vertically */
+    color: #22d2db;
+}
+
+.clock {
+    display: inline-block; /* Display both the img and div as inline-block elements */
+    vertical-align: middle; /* Align elements vertically */
+    color: #c6cdcde0;
+   
+}
+.h {
+    white-space: nowrap; /* Prevent line breaks */
+}
+
+.item {
+    display: inline-block; /* Display elements inline */
+    vertical-align: middle; /* Align elements vertically */
+}
+
+.spacer {
+    width: 20px; /* Adjust the width of the spacer */
+    display: inline-block; /* Display spacer inline */
+    max-width: 25px;
+}
+
+.J {
+    white-space: nowrap; /* Prevent line breaks */
+    margin-left: auto;
+}
+
+.Jule {
+    display: inline-block; /* Display image inline */
+    vertical-align: middle; /* Align image vertically */
+    width: 40px; /* Set the width of the image */
+    border: 1px solid #fff; /* Decrease the border thickness */
+    border-radius: 50%; /* Keep the border radius */
+}
+
+
+
+.spacer {
+    width: 20px; /* Adjust the width of the spacer */
+    display: inline-block; /* Display spacer inline */
+}
+
+.Jules {
+    display: inline-block; /* Display text inline */
+    vertical-align: middle; /* Align text vertically */
+    margin-left: auto; /* Add left margin for space */
+    color: #e9efefc4;
+}
+
+.jules-link {
+    color: #f4efefce; /* Set light color for text */
+    text-decoration: none; /* Remove default underline */
+    transition: color 0.3s; /* Smooth transition for color change */
+}
+
+.jules-link:hover {
+    color:  #22d2db; /* Change text color to blue on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+
+.light-text {
+    color: #888888ce; /* Set light color for "Creation of" text */
+}
